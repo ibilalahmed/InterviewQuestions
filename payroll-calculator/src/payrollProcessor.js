@@ -13,7 +13,6 @@ function calculateHours(start, end) {
 }
 
 // Processes a single employee's time punches to calculate their total compensation.
-
 function processEmployee(employee, jobRates) {
   let totalHoursWorked = 0;
   const result = {
@@ -36,7 +35,7 @@ function processEmployee(employee, jobRates) {
 
     let remainingHoursInPunch = hoursForPunch;
 
-    // 1. Allocate hours to Regular time
+    // Allocate hours to Regular time
     if (totalHoursWorked < OVERTIME_THRESHOLD) {
       const regularHoursToAdd = Math.min(
         remainingHoursInPunch,
@@ -96,4 +95,5 @@ module.exports = {
   calculatePayroll,
   processEmployee,
   calculateHours,
+
 };
