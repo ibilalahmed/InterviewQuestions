@@ -17,14 +17,17 @@ It reads employee work hours from a JSON file and figures out their total pay ba
 
 Follow these steps to run the project on your computer.
 
-1. CLONE THE PROJECT
+**CLONE THE PROJECT**: 
+
 First, clone the project from GitHub onto your machine using the git clone command.
 
-2. GO INTO THE PROJECT FOLDER
-Navigate into the folder you just cloned.
-Example: `cd payroll-calculator`
+**GO INTO THE PROJECT FOLDER**:
 
-3. INSTALL THE TOOLS
+- Navigate into the folder you just cloned.
+- Example: `cd payroll-calculator`
+
+**INSTALL THE TOOLS**:
+
 Important: Once you are inside the `payroll-calculator` folder, run this command. It will automatically download and install all the tools the project needs to run (like Jest for testing).
 Command: `npm install`
 
@@ -54,3 +57,4 @@ You will see a "PASS" message if all the math is correct.
 **TEST RESULTS**
 
 <img width="576" height="308" alt="image" src="https://github.com/user-attachments/assets/668f659a-806b-460f-9801-87cf0b392fea" />
+
